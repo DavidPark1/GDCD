@@ -28,7 +28,7 @@ Coursework - Getting and Cleaning Data Course Project - README.md
 
 ###Created Data/Files:
 >1. README.md
->2. Codebook.md
+>2. Codebook.txt
 >3. run_analysis.R
 
 ###The assignment is to create on R script, "run_analysis.R" that will:
