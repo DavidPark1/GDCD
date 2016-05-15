@@ -31,13 +31,13 @@ files<-list.files(path_rf, recursive=TRUE)
 files
 #The variables are "subject," "feature," and "activities"
 
-#Subject is the person being measured in “subject_train.txt” and subject_test.txt"
-#Feature, shortened as "x", is the measurement by the accelerometer and gyroscope
+#Subject is the person being measured in â€œsubject_train.txtâ€ and subject_test.txt"
+#Feature, is the measurement by the accelerometer and gyroscope
 #- Feature variable names are in "features.txt"
 #- "X_train.txt" and "X_test.txt" are the respective data from the training and test sets 
-#Activities, shortened as "y", is one of six activities performed by subject
-#- Activity names are in activity_labels.txt (As described originally in the source data description: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 #- "Y_train.txt" and "Y_test.txt" are the respective data from the training and test sets 
+#Activities, is one of six activities performed by subject
+#- Activity names are in activity_labels.txt (As described originally in the source data description: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 
 ##Read the Subject files and check properties
 dataSubjectTrain <- read.table(file.path(path_rf, "train", "subject_train.txt"),header = FALSE)
