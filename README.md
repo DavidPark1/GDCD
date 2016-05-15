@@ -46,4 +46,4 @@ Coursework - Getting and Cleaning Data Course Project - README.md
 
 ###Required packages:
 >1. dplyr
->2. data.tables
+>2. data.table
