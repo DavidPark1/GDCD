@@ -43,3 +43,7 @@ Coursework - Getting and Cleaning Data Course Project - README.md
 >2. Download and unzip the file from "Source Data" into your working directory.
 >3. Place "run_analysis.R" into your working directory and review Codebook.txt to review R script and details.
 >4. Source "run_analysis.R" to result in an independant tidy data set, "tiny_data.txt" into your working directory.
+
+###Required packages:
+>1. dplyr
+>2. data.tables
